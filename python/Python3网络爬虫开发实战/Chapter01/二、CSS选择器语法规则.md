@@ -5,13 +5,13 @@
 #id|#firstname|选择id="firstname"的所有节点
 *|*|选择所有节点
 element|p|选择所有 p 节点
-element,element|div,p|选择所有 div 节点<font color='red'>和</font>所有p节点
-element element|div p|选择 div 节点<font color='red'>内部的</font>所有p节点
-elementselement|div>p|选择<font color='red'>父节点</font>为div节点的所有 p节点
-element+element|div+p|选择紧接在 div <font color='red'>节点之后</font>的所有p节点
-[attribute]|[target]|选择带有 target<font color='red'>属性</font>的所有节点
+element,element|div,p|选择所有 div 节点<font color="red">和</font>所有p节点
+element element|div p|选择 div 节点<font color="red">内部的</font>所有p节点
+elementselement|div>p|选择<font color="red">父节点</font>为div节点的所有 p节点
+element+element|div+p|选择紧接在 div <font color="red">节点之后</font>的所有p节点
+[attribute]|[target]|选择带有 target<font color="red">属性</font>的所有节点
 [attribute=value]|[target=blank]|选择 target="blank" 的所有 节点
-[attribute~=svalue]|[title"~=flower]|选择 title <font color='red'>属性包含单词</font> flower 的所有节点
+[attribute~=svalue]|[title"~=flower]|选择 title <font color="red">属性包含单词</font> flower 的所有节点
 :link|a:link|选择所有未被访间的链接
 :visited|a:visited|选择所有已被访问的链接
 :active|a:active|选择活动链接
