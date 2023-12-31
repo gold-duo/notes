@@ -5,7 +5,7 @@
 #id|#firstname|选择id="firstname"的所有节点
 *|*|选择所有节点
 element|p|选择所有 p 节点
-element,element|div,p|选择所有 div 节点<font color="red">和</font>所有p节点
+element,element|div,p|选择所有 div 节点<font style="color:red">和</font>所有p节点
 element element|div p|选择 div 节点<font color="red">内部的</font>所有p节点
 elementselement|div>p|选择<font color="red">父节点</font>为div节点的所有 p节点
 element+element|div+p|选择紧接在 div <font color="red">节点之后</font>的所有p节点
